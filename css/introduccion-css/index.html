@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;500;700;800&display=swap');
+        * {
+            box-sizing : border-box;
+        }
+        body {
+            margin : 0;
+            height : 100%;
+            width : 100%;
+        }
+        main {
+            background-color: #20252C;
+            min-height: 100vh;
+            padding: 20px ;
+            color: #fff;
+            font-family: 'Solway', serif;
+        }
+        article {
+            max-width: 700px;
+            margin : 0 auto;
+
+        }
+        h1 {
+            font-size:50px;
+            text-align: center;
+        }
+        .video-youtube, .imagen {
+            display: flex;
+            justify-content: center;
+            margin-top : 50px;
+            margin-bottom: 50px;
+        }
+        .imagen{
+            margin-bottom: 100px;
+        }
+        .referencia{
+            margin-bottom: 100px;
+        }
+        .referencia-link{
+            color: white;
+            font-weight: 600;
+        }
+        .link-navegacion{
+            margin-left : 20px;
+            cursor : pointer;
+        }
+        .link-boton{
+            background-color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            border-radius: 20px;
+            border: none;
+            font-weight: 600;
+            color: #454545;
+            cursor: pointer;
+        }
+    </style>
+    <title>CSS</title>
+</head>
+<body>
+    <header class="cabecera-navegacion">
+        <nav class="menu-navegacion">
+            <ul>
+                <li class="logo-navegacion">TUCSS</li>
+                <li class="link-navegacion">Home</li>
+                <li class="link-navegacion">Blog</li>
+                <li class="link-navegacion">
+                    <button class="link-boton">Iniciar sesión</button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Introducción a CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga repellat sit, adipisci inventore, minima omnis alias quia at blanditiis nihil. Hic ullam dolore optio! Odit explicabo culpa consectetur doloremque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga repellat sit, adipisci inventore, minima omnis alias quia at blanditiis nihil. Hic ullam dolore optio! Odit explicabo culpa consectetur doloremque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fuga repellat sit, adipisci inventore, minima omnis alias quia at blanditiis nihil. Hic ullam dolore optio! Odit explicabo culpa consectetur doloremque!</p>
+            <div class="video-youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lPJVi797Uy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae officia consequatur perferendis at. Eveniet sint tenetur iure error veritatis labore provident sunt quo voluptate, velit excepturi modi, cumque reiciendis.</p>
+            <div class="imagen">
+                <img src="https://disenowebakus.net/imagenes/articulos/aprender-css-hojas-de-estilo-en-cascada.jpg" 
+                alt="css image"
+                width="560">
+            </div>
+
+            <p class="referencia">Si quieres aprender más sobre CSS gratis, te recomiendo visitar
+                <a 
+                class="referencia-link"
+                href="https://developer.mozilla.org/es/docs/Web/CSS/margin"
+                target="_blank"
+                > sitio web. 
+                </a>
+            </p>
+
+
+
+
+        </article>
+    </main>
+</body>
+</html>
