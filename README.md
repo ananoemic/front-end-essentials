@@ -1,5 +1,13 @@
-# What is repository about?
+# ESSENTIALS
 
+HTML essentials
 
-> We'll see important foundation for HTML5 & CSS
-
+-Botones
+-Encabezados
+-Formularios
+-Párrafos
+-Formularios
+-Inputs
+-Listas
+-Media
+-Tablas
